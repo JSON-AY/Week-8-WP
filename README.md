@@ -24,7 +24,7 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: User Enumeration: When typing the name of an actual user that has access to the site, the "Log in was unsuccessful" message will be in bold, signifying that this user name exists. Whereas, if you type in a random user name the "Log in was unsuccessful" message will not be in bold text.
-[User Enumeration] (https://imgur.com/a/V4oltH2)
+[User Enumeration Imgur](https://imgur.com/a/V4oltH2)
 
 Vulnerability #2: __________________
 
@@ -32,7 +32,7 @@ Vulnerability #2: __________________
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR): When loading the "Find a Salesperson" page, if you click into an employee, you'll see in the url that they are using "id" to call out specific salespeople. When changing the number, you're able to find additional salespeople that are not listed in the main directory. 
-[IDOR](https://imgur.com/a/bdrdliH)
+[IDOR Imgur](https://imgur.com/a/bdrdliH)
 
 Vulnerability #2: __________________
 
