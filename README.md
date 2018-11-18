@@ -16,7 +16,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijacking: When using two seperate browsers both with BurpSuite, you can use the session id from a successfull login to then use on an alternate browser with Burp to sign in using that same users session.
+[Session Hijacking](https://imgur.com/a/DbJlBl7)
 
 Vulnerability #2: __________________
 
