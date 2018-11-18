@@ -23,7 +23,8 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: When typing the name of an actual user that has access to the site, the "Log in was unsuccessful" message will be in bold, signifying that this user name exists. Whereas, if you type in a random user name the "Log in was unsuccessful" message will not be in bold text.
+[User Enumeration] (https://imgur.com/a/V4oltH2)
 
 Vulnerability #2: __________________
 
