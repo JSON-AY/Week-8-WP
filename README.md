@@ -19,7 +19,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: Session Hijacking: When using two seperate browsers both with BurpSuite, you can use the session id from a successfull login to then use on an alternate browser with Burp to sign in using that same users session.
 [Session Hijacking](https://imgur.com/a/DbJlBl7)
 
-Vulnerability #2: __________________
+Vulnerability #2: Potential for SQL Injections: When modifying the url under a salespersons name, you can see that the blue site returns a failed database query when adding a single quote after the id field. The red and green sites simple redirect back to the main salesperson page as it's been properly sanitized. 
+[SQL Vulnerability](https://imgur.com/a/bQpVxAi)
 
 
 ## Green
