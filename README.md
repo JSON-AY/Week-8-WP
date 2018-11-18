@@ -28,7 +28,7 @@ Vulnerability #2: Potential for SQL Injections: When modifying the url under a s
 Vulnerability #1: User Enumeration: When typing the name of an actual user that has access to the site, the "Log in was unsuccessful" message will be in bold, signifying that this user name exists. Whereas, if you type in a random user name the "Log in was unsuccessful" message will not be in bold text.
 [User Enumeration Imgur](https://imgur.com/a/V4oltH2)
 
-Vulnerability #2: Cross Site Scripting URL Redirect: By using the public facing feedback form, you can inject XSS attacks. I was unsuccesful in completely redirecting to the youtube site that I wanted (Rick Roll), but it shows that when a logged in user attempts to view the feedback the page tries to go where I told it to. It may not succeed in redirecting, but it does cause a headache for the web admin that they now have to fix.
+Vulnerability #2: Cross Site Scripting URL Redirect: By using the public facing feedback form, you can inject XSS attacks. I was unsuccesful in completely redirecting to the youtube site that I wanted (Rick Roll) :), but it shows that when a logged in user attempts to view the feedback the page tries to go where I told it to. It may not succeed in redirecting, but it does cause a headache for the web admin that they now have to fix.
 [XSS URL Redirect](https://imgur.com/a/vFurN55)
 
 
